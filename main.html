@@ -4,31 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Grid Layout</title>
-  <!-- Standard Bootstrap 4 / 5 CSS CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Container -->
-  <div class="container custom-container">
-    
-    <!-- Row 1 -->
-    <div class="row custom-row">
-      <div class="col-6 col-md-4 custom-col r1-c1">Row1 col1</div>
-      <div class="col-6 col-md-8 custom-col r1-c2">Row1 col2</div>
+  <!-- Custom Container -->
+  <div class="custom-container">
+
+    <!-- ROW 1 -->
+    <div class="row no-gutters">
+      <div class="col-6 col-md-4 row1-col1">Row1 col1</div>
+      <div class="col-6 col-md-8 row1-col2">Row1 col2</div>
     </div>
 
-    <!-- Row 2 -->
-    <div class="row custom-row">
-      <div class="col-md-4 offset-md-2 custom-col r2-c1">Row2 col1</div>
-      <div class="col-md-4 custom-col r2-c2">Row2 col2</div>
+    <!-- ROW 2 (Added offset-md-2 to col2 to create gap between columns) -->
+    <div class="row no-gutters">
+      <div class="col-md-4 offset-md-2 row2-col1">Row2 col1</div>
+      <div class="col-md-4 offset-md-2 row2-col2">Row2 col2</div>
     </div>
 
-    <!-- Row 3 -->
-    <div class="row custom-row justify-content-center">
-      <div class="col-6 col-md-4 custom-col r3-c1">Row3 col1</div>
-      <div class="col-6 col-md-4 custom-col r3-c2">Row3 col2</div>
+    <!-- ROW 3 -->
+    <div class="row no-gutters justify-content-center">
+      <div class="col-6 col-md-4 row3-col1">Row3 col1</div>
+      <div class="col-6 col-md-4 row3-col2">Row3 col2</div>
     </div>
 
   </div>
